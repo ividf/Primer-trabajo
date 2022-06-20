@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(fondo1.jpg)
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    
+}
+.contenedor{
+    height: 29rem;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,7rem);
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e";
+    align-content: center;
+}
+#puntos{
+    background-color: blue;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+.contenedor *{
+    border: solid white;
+    border-radius: 5rem;
+    
+    
+}
+#boton1{
+    grid-area:b ;
+    text-align: center;
+
+}
+#boton2{
+    grid-area: c;
+    text-align: center;
+    
+}
+#boton3{
+    grid-area: d;
+    text-align: center;
+    
+}
+#boton4{
+    grid-area: e;
+    text-align: center;
+    
+}
+
+#pregunta{
+    grid-area: a;
+    text-align: center;
+    
+    
+}
+footer{
+    width:1fr;
+    height: 2rem;
+    background-color: aqua;
+}
