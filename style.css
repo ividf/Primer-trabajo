@@ -1,29 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Russo+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    
-    min-height: 100vh;
+    min-height: 99.86vh;
     display: flex;
     flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(fondo1.jpg)
-    
 }
+
 main{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-
-    
+    background-image: url(uuuntu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 .contenedor{
-    height: 29rem;
-    background-color: blueviolet;
+    height: 45rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,7rem);
@@ -32,53 +32,85 @@ main{
     "b c"
     "d e";
     align-content: center;
+    margin-bottom: 5rem;
+    padding: 5rem;
 }
+
 #puntos{
-    background-color: blue;
+    font-family: "Righteous", cursive;
+    font-size: 5rem;
+    font-weight: bold;
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
-    
-    
-
+    margin-top: 9rem;
 }
+
 .contenedor *{
-    border: solid white;
-    border-radius: 5rem;
-    
-    
-}
-#boton1{
-    grid-area:b ;
-    text-align: center;
-
-}
-#boton2{
-    grid-area: c;
-    text-align: center;
-    
-}
-#boton3{
-    grid-area: d;
-    text-align: center;
-    
-}
-#boton4{
-    grid-area: e;
-    text-align: center;
-    
+    border-radius: 20px;
+    font-family: "Russo One", sans-serif;
 }
 
 #pregunta{
+    color: rgba(255, 255, 255, 0.764);
+    font-size: 2rem ;
     grid-area: a;
     text-align: center;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
 }
+
+.boton{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.728);
+    /*box-shadow: 20px 20px 20px rgb(22, 125, 193)*/;
+}
+
+.boton:hover {
+    box-shadow: 20px 20px 20px rgb(22, 125, 193), 0 0 10px 4px rgb(22, 125, 193);
+}
+
+#boton1{
+    grid-area:b;
+}
+
+#boton2{
+    grid-area: c;
+}
+
+#boton3{
+    grid-area: d;
+}
+
+#boton4{
+    grid-area: e;
+}
+
 footer{
+    color: rgba(255, 255, 255, 0.812);
     width:1fr;
-    height: 2rem;
-    background-color: aqua;
+    height: 1rem;
+    background: border-box black;
+    display: flex;
 }
+
+#pfooter1, #pfooter2{
+    width: 50%;
+    display: flex;
+}
+
+#pfooter1{
+    justify-content: left;
+    margin-left: 5rem;
+}
+
+#pfooter2{
+    justify-content: right;
+    margin-right: 5rem;
+}
+
+
