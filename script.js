@@ -67,6 +67,7 @@
     preguntaAleatoria()
     
     
+
     
 
     //crear trivial
