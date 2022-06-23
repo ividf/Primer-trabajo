@@ -16,7 +16,6 @@ main{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-   
 }
 
 .contenedor{
@@ -55,6 +54,10 @@ main{
 		0 0 180px rgba(180,27,180,1);
 }
 
+span{
+    margin-left: 7rem;
+}
+
 .contenedor *{
     border-radius: 20px;
     font-family: "Russo One", sans-serif;
@@ -85,7 +88,6 @@ main{
     font-size: 2rem;
     text-align: center;
     background-color: rgba(0, 204, 255, 0.116);
-    /*box-shadow: 20px 20px 20px rgb(22, 125, 193)*/;
     color: black;
     
     border-color: #fff;
@@ -144,12 +146,12 @@ footer{
     justify-content: right;
     margin-right: 5rem;
 }
+
 main{
     background-image: url(fondo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 
