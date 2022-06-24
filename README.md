@@ -23,8 +23,9 @@ Por nuestra parte hemos creado los siguientes archivos y hemos trabajado con ell
   - **CSS**. Para dar el estilo deseado. En este caso hemos optado por un diseño de neones de tonalidades azul y magenta, destacando las letras del fondo oscuro utilizando sombras
   - **JS**. Utilizado para recorrer y trabajar con el archivo JSON recibido y hacer la página más dinámica. Además de las funcionalidades mínimas requeridas, hemos añadido otras caracterísitcas como: las preguntas se muestran de forma aleatoria al participante y no se repiten en ningún momento hasta que se acaba el juego 
  
-
-###### *AUTORES: Ivan Diaz Fraga & Álvaro García Fernandez*
+ 
+ 
+###### *AUTORES: Ivan Diaz Fraga & Álvaro García Fernandez*    :+1:
 
 
 
