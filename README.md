@@ -4,13 +4,13 @@
 
 En este juego el participante se enfrentará a 50 preguntas en inglés relacionadas con el mundo cinematográfico. Cada una de estas preguntas tiene 4 posibles respuestas, de las cuales sólo 1 es correcta. Cada respuesta acertada supondrá 1 punto, que se sumará a la puntuación (POINTS) total: 
 
-<img width="391" alt="image" src="https://user-images.githubusercontent.com/104387766/175655999-02dc7a92-b316-43fe-9892-7f7e208617e2.png">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/104387766/175655999-02dc7a92-b316-43fe-9892-7f7e208617e2.png">
 
 Las respuestas fallidas no alterarán la puntuación y se pasará a la siguiente pregunta
 
 Una vez el participante haya respondido a las 50 preguntas se le indicará la puntuación total obtenida:
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/104387766/175656622-b5b3e038-08b7-4f1a-9092-0ac3d4caf0f5.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/104387766/175656622-b5b3e038-08b7-4f1a-9092-0ac3d4caf0f5.png">
 
 
 ## ¿Cómo se ha realizado el proyecto?
