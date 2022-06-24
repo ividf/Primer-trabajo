@@ -10,7 +10,7 @@ Las respuestas fallidas no alterarán la puntuación y se pasará a la siguiente
 
 Una vez el participante haya respondido a las 50 preguntas se le indicará la puntuación total obtenida:
 
-<img width="792" alt="image" src="https://user-images.githubusercontent.com/104387766/175656622-b5b3e038-08b7-4f1a-9092-0ac3d4caf0f5.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/104387766/175656622-b5b3e038-08b7-4f1a-9092-0ac3d4caf0f5.png">
 
 
 ## ¿Cómo se ha realizado el proyecto?
