@@ -23,9 +23,23 @@ function numeroAleatorio(){
             
             if(acumulacion.includes(num))
             {
-                console.log("se repite "+num);
-                
                 num = Math.floor(Math.random()*49)
+    
+            
+            if(acumulacion.includes(num))
+            {
+                
+                
+                numeroAleatorio()
+            }
+            else
+            {
+                acumulacion.push(num)
+
+            }
+                
+                
+                
             }
             else
             {
@@ -112,7 +126,7 @@ function numeroAleatorio(){
             queryPuntos.textContent=puntos
                     
         }
-        if(acumulacion.length>10){
+        if(acumulacion.length>48){
 
             queryPuntosSpam.textContent="PUNTUACION FINAL: " +puntos+"/50"
             apagarBoton()
