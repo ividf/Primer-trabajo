@@ -13,6 +13,7 @@ let acumulacion=[]
 
 
 
+
 //////////////////////////////////////////////
 
 function numeroAleatorio(){
@@ -121,7 +122,9 @@ function numeroAleatorio(){
 
             queryPuntosSpam.textContent="PUNTUACION FINAL: " +puntos+"/50"
             apagarBoton()
-            queryPuntosSpam.style.animation="tamaño 1s"
+            queryPuntosSpam.style.animation="tamaño 2s"
+            setTimeout("location.reload()",5000);
+            
             
             
         }    
@@ -133,12 +136,41 @@ function numeroAleatorio(){
         queryBotones[i].addEventListener("click",presBoton)
     }
 
-    
-  
-    
-    
-    //////////////////
-    
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,15 +210,7 @@ function numeroAleatorio(){
         queryBoton3Apagar.disabled=true
         queryBoton4Apagar.disabled=true
     }
-    function encenderBoton()
-    {
-        queryBoton1Apagar.disabled=false
-        queryBoton2Apagar.disabled=false
-        queryBoton3Apagar.disabled=false
-        queryBoton4Apagar.disabled=false
-        
-    }
-
+  
     
 
 
