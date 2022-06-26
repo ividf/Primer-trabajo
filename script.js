@@ -23,14 +23,9 @@ function numeroAleatorio(){
             
             if(acumulacion.includes(num))
             {
-                num = Math.floor(Math.random()*49)
+                numeroAleatorio()
     
             
-            if(acumulacion.includes(num))
-            {
-                
-                
-                numeroAleatorio()
             }
             else
             {
@@ -40,12 +35,8 @@ function numeroAleatorio(){
                 
                 
                 
-            }
-            else
-            {
-                acumulacion.push(num)
-
-            }
+            
+            
         
         
         console.log(acumulacion);
@@ -124,12 +115,14 @@ function numeroAleatorio(){
             console.log(acumulacion.length);
             puntos++
             queryPuntos.textContent=puntos
-                    
+                             
         }
-        if(acumulacion.length>48){
+        if(acumulacion.length>=49){
 
             queryPuntosSpam.textContent="PUNTUACION FINAL: " +puntos+"/50"
             apagarBoton()
+            queryPuntosSpam.style.animation="tamaño 1s"
+            
             
         }    
         preguntaAleatoria()  
@@ -139,6 +132,9 @@ function numeroAleatorio(){
     {
         queryBotones[i].addEventListener("click",presBoton)
     }
+
+    
+  
     
     
     //////////////////
