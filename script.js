@@ -100,6 +100,7 @@ function numeroAleatorio(){
 
         
     }
+    /////////////////////////
 
     async function presBoton(evento){
         
@@ -108,15 +109,20 @@ function numeroAleatorio(){
         let arrayJson =await data
         let pregunta =arrayJson[numeroPregunta]
         console.log(pregunta.correct);
-    
-
+        
+        
         if(pregunta.correct===textoRespuestas)
         {
             console.log(pregunta.correct);
             console.log(acumulacion.length);
             puntos++
-            queryPuntos.textContent=puntos
-                             
+            queryPuntos.textContent=puntos   
+            queryPuntos.classList.remove("animacion")  
+            queryPuntos.offsetWidth 
+            
+            
+
+            queryPuntos.classList.add("animacion")            
         }
         if(acumulacion.length>=49){
 
@@ -124,93 +130,31 @@ function numeroAleatorio(){
             apagarBoton()
             queryPuntosSpam.style.animation="tamaño 2s"
             setTimeout("location.reload()",5000);
-            
-            
-            
+           
+           
+           
         }    
-        preguntaAleatoria()  
+        else{
+            
+            preguntaAleatoria()  
+        }
     }
     
+    
+    /////////////////////////
     for(let i=0;i<queryBotones.length;i++)
     {
         queryBotones[i].addEventListener("click",presBoton)
     }
 
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    function apagarBoton()
+function apagarBoton()
     {
         queryBoton1Apagar.disabled=true
         queryBoton2Apagar.disabled=true
         queryBoton3Apagar.disabled=true
         queryBoton4Apagar.disabled=true
     }
-  
+
     
 
 
