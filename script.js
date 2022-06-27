@@ -32,6 +32,7 @@ function numeroAleatorio(){
             {
                 acumulacion.push(num)
 
+                return numeroPregunta=num
             }
                 
                 
@@ -42,7 +43,6 @@ function numeroAleatorio(){
         
         console.log(acumulacion);
     
-        return numeroPregunta=num
         
     }
     //////////////////////////////////////////////////
